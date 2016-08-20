@@ -17,7 +17,7 @@ https://github.com/takuyaa/kuromoji.js
 2. DLしたアーカイブ内にあるpackage.jsonを開き、dependenciesに上記のエントリーを追加し保存する
 3. DLしたアーカイブ内にあるmanifest.ymlを開き、memoryの設定値を640MB以上に修正し保存する
 4. Bluemix Runtimeにpushする(cf push <Application Name>)
-5. Node-REDのWeb画面を開き、Node一覧のNIandCセクション内に、Kuromoji Tokenizer Nodeが追加されたことを確認する
+5. Node-REDのWeb画面を開き、Node一覧のanalysisセクション内に、Kuromoji Tokenizer Nodeが追加されたことを確認する
 
 ## How to Use
 
