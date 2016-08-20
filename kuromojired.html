@@ -1,0 +1,49 @@
+<!--
+  Copyright (c) 2016 Kota Suizu
+  Released under the MIT license
+  http://opensource.org/licenses/mit-license.php
+-->
+
+<script type="text/x-red" data-template-name="Kuromoji Tokenizer">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="Kuromoji Tokenizer">
+    <p>This node performs morphological analysis of input string using Kuromoji.</p>
+    <p>
+        The input message contains the following properties:
+        <ul>
+            <li><code>payload</code> is the string to do morphological analysis.</li>
+        </ul>
+    </p>
+    <p>
+        The output message contains the following properties:
+        <ul>
+            <li><code>payload</code> is the JSON Object of tokenized string.</li>
+        </ul>
+    </p>
+</script>
+
+<script type="text/javascript">
+    RED.nodes.registerType('Kuromoji Tokenizer', {
+        category: 'analysis',
+        defaults: {
+            name: {
+                value: ""
+            }
+        },
+        color: "#00A0E2",
+        inputs: 1,
+        outputs: 1,
+        icon: "icon_160272_16.png",
+        label: function() {
+            return this.name || "Kuromoji Tokenizer";
+        },
+        labelStyle: function() {
+            return this.name ? "node_label_italic" : "";
+        }
+    });
+</script>

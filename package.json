@@ -1,0 +1,24 @@
+{
+  "name": "node-red-kuromoji",
+  "version": "0.0.1",
+  "description": "A Node-RED node of Japanese morphological analyzer",
+  "dependencies": {
+    "kuromoji": ">=0.0.5"
+  },
+  "keywords": [
+    "node-red",
+    "kuromoji",
+    "bluemix"
+  ],
+  "node-red": {
+    "nodes": {
+      "kuromojired": "kuromojired.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kotasuizu/node-red-kuromoji"
+  },
+  "author": "Kota Suizu",
+  "license": "MIT"
+}
