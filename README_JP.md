@@ -30,7 +30,9 @@ NodeInputのpayloadに形態素解析したいStringを入力すると、Output�
 
 以下ディレクトリをKuromoji初期化時の辞書ディレクトリとして指定しています。  
 ユーザ辞書等を整備したい場合は、このディレクトリ内の辞書をカスタマイズ/追加ください。  
+```
 node-red-kuromoji/node_modules/kuromoji/dist/dict
+```
 
 
 ## Copyright and license

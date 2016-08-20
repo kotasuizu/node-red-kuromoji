@@ -27,7 +27,9 @@ If you enter a String to Input Payload, analysis result JSON is output.
 
 Kuromoji dictionary directory is the following.  
 If you want to customize the dictionary, please customize the dictionary in this directory.
+```
 node-red-kuromoji/node_modules/kuromoji/dist/dict
+```
 
 
 ## Copyright and license
