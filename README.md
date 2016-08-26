@@ -1,7 +1,6 @@
 # node-red-kuromoji
 
-A Node-RED node of Japanese morphological analyzer  
-Mainly assumes the running at Node-RED on the IBM Bluemix.
+A Node-RED node of Japanese morphological analyzer
 
 About Kuromoji.js, please check the following site.  
 https://github.com/takuyaa/kuromoji.js
@@ -28,7 +27,7 @@ If you enter a String to Input Payload, analysis result JSON is output.
 Kuromoji dictionary directory is the following.  
 If you want to customize the dictionary, please customize the dictionary in this directory.
 ```
-node-red-kuromoji/node_modules/kuromoji/dist/dict
+node-red-kuromoji/node_modules/kuromoji/dict
 ```
 
 

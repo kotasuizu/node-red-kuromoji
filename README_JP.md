@@ -1,7 +1,6 @@
 # node-red-kuromoji
 
-Kuromoji.jsを用いた形態素解析を行います。  
-主にIBM Bluemix上のNode-REDでの稼働を想定しています。(他でも動くと思いますが、、、)
+Kuromoji.jsを用いた形態素解析を行います。
 
 Kuromoji.jsについては、以下サイトをご確認ください。  
 https://github.com/takuyaa/kuromoji.js
@@ -31,7 +30,7 @@ NodeInputのpayloadに形態素解析したいStringを入力すると、Output�
 以下ディレクトリをKuromoji初期化時の辞書ディレクトリとして指定しています。  
 ユーザ辞書等を整備したい場合は、このディレクトリ内の辞書をカスタマイズ/追加ください。  
 ```
-node-red-kuromoji/node_modules/kuromoji/dist/dict
+node-red-kuromoji/node_modules/kuromoji/dict
 ```
 
 

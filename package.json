@@ -1,9 +1,9 @@
 {
   "name": "node-red-kuromoji",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Node-RED node of Japanese morphological analyzer",
   "dependencies": {
-    "kuromoji": ">=0.0.5"
+    "kuromoji": ">=0.1.1"
   },
   "keywords": [
     "node-red",

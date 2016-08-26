@@ -5,7 +5,7 @@
 **/
 
 var kuromoji = require("kuromoji");
-var DIC_URL = "node_modules/node-red-kuromoji/node_modules/kuromoji/dist/dict";
+var DIC_URL = "node_modules/node-red-kuromoji/node_modules/kuromoji/dict";
 
 var tokenizer = null
 
