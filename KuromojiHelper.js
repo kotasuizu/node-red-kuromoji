@@ -1,12 +1,20 @@
 /**
-* Copyright (c) 2016 Kota Suizu
+* Copyright (c) 2016, 2017 Kota Suizu
 * Released under the MIT license
 * http://opensource.org/licenses/mit-license.php
 **/
 
 var kuromoji = require("kuromoji");
 
-var DIC_URL = __dirname + "/node_modules/kuromoji/dict";
+var DIC_URL = "";
+for (var i = 0; i < module.children.length; i++) {
+  var myFilename = module.children[i].filename;
+  if (myFilename.match(/kuromoji/)) {
+    var length = myFilename.length;
+    DIC_URL = myFilename.substr(0,length-15);
+    DIC_URL += "dict";
+  }
+}
 console.log("DIC_URL is " + DIC_URL);
 
 var tokenizer = null

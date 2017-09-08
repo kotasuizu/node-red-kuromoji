@@ -8,11 +8,11 @@ https://github.com/takuyaa/kuromoji.js
 
 ## How to Install
 
-Run the following command in the root directory of your Node-RED install
+To install Node, please refer to the following site.  
 
-```
-npm install node-red-kuromoji
-```
+https://nodered.org/docs/getting-started/adding-nodes  
+(Japanese) https://nodered.jp/docs/getting-started/adding-nodes  
+
 
 ## How to Use
 
@@ -22,17 +22,16 @@ Node configuration is nothing.
 If you enter a String to Input Payload, analysis result JSON is output.
 
 
-### If you want to customize the dictionary of Kuromoji:
+### Kuromoji's dictionary is:
 
-Kuromoji dictionary directory is the following.  
-If you want to customize the dictionary, please customize the dictionary in this directory.
+The dictionary uses what is in the dependent Kuromoji directory.  
 ```
-node-red-kuromoji/node_modules/kuromoji/dict
+node_modules/kuromoji/dict
 ```
 
 
 ## Copyright and license
 
-Copyright (c) 2016 Kota Suizu  
+Copyright (c) 2016, 2017 Kota Suizu  
 Released under the MIT license  
 http://opensource.org/licenses/mit-license.php
